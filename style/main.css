@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+    height: 100vh;
+}
+
+img {
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;;
+}
+
+.first-image,
+.next-image,
+.last-image {
+    display: none;
+}
+
+.arrow {
+    font-size: 40px;
+    color: #000;
+    padding: 30px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    list-style: none;
+}
+
+.dot {
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+}
+
+.active {
+    display: block;
+}
